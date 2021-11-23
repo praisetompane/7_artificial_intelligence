@@ -1,0 +1,8 @@
+0. MIT 6.0002 Introduction to Computational Thinking and Data Science
+    https://www.youtube.com/playlist?list=PLUl4u3cNGP619EG1wp0kT-7rDE_Az5TNd
+
+1. MIT 6.036 Introduction to Machine Learning
+    https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-036-introduction-to-machine-learning-fall-2020/
+   
+2. MIT 6.034 Artificial Intelligence
+    https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-034-artificial-intelligence-fall-2010/
