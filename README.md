@@ -1,21 +1,14 @@
-# 7_machine_learning_and_artificial_intelligence
-DRAFT and UNSTRUCTURED
-
-DeepMind
-https://www.youtube.com/channel/UCP7jMXSY2xbc3KCAE0MHQ-A
+# 7_artitificial_intelligence
 
 # Levels of understanding
 * conceptual
 * mechinical
 * intuitive
 
-# Where are our current machines now?
-
 # sources
+* MIT 6.0002 Introduction to Computational Thinking and Data Science
 
-
-* terry wennegrad - thinking machines
-
+# community
 * open AI
  
 # Legend

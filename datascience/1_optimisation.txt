@@ -1,0 +1,123 @@
+Optimisation
+    properties:
+        - objective: the thing you want to achieve/do/complete
+            - objective function
+                either to minimize or maximize
+                operations = {maximize | maximize}
+        - set of constraints
+            can be empty
+            - eliminates solutions
+    Examples: Going to Cape Town from Jozi either by Bus/Train/Flight    
+        - Context
+            Given:
+                Flight cost = 2 hours, R1000
+                Train = 168 hours, R250
+                Bus = 72 hours, R450
+        
+        - objective: Find route that minimizes the total travel time
+            - objective function: number of minutes spent in transit
+        
+        - set of constraints:
+            only have R500 to spend
+        
+        ∴   Bus route, 72 hours at R450 cost
+    
+            (Flight, 2 hours) < ((Bus, 72 hours), (Train, 168 hours))
+                (Flight, R1000) > (Constraint, R450)
+
+            (Bus, 72 hours) < (Train, 168 hours)
+                (Bus, R450) < (R500, Contraint)
+
+Optimisation problems:
+    - KnapSnack problem
+        - Types of this problem:
+            - 0/1 version: take whole item(s) or not
+                - a choice affect future options
+            - Continous version: allowed to take pieces of items.
+                solution: 
+                    - keep taking item pieces until KnapSnack is full or item has ran out, then
+                    repeat for the next most valuable.
+                    - Greedy algorithm
+                    - Easy to solve
+
+        - Informal Definition:
+            Context:
+                Given:
+                    Material
+                        Gold, Silver, Raisans
+                    KnapSnack(Bag), with limited(finite) capacity
+            
+            Objective: Take material(s) with the highest total value
+                objective function: highest total value
+                    operation: maximize
+
+            Constraint:
+                material has to fit in KnapSnack
+                    
+        - Formal Definition:
+            - item I: pair <value, weight>
+            - knapsack total weight: w
+            - Vector L: list of available items
+                length: n
+                type: item = (item_name, objective_function_value)
+            - Vector V: list of items taken
+                length: n
+                type: bit
+                    when:
+                        1, item is taken
+                        0, item is not taken
+                        Example:
+                            When:   
+                                V[3] (item 3) = 1, then item 3 is taken
+                                V[1] (item 1) = 0, then item 1 is NOT taken
+
+            - Objective: 
+                Find a V that maximizes
+                    n-1
+                    Σ V[i] * I[i].value
+                    i=0
+                    
+                    subject to the constraint that
+                        n-1    
+                        Σ V[i] * I[i].weight <= w 
+                        i=0
+
+                In english: 
+                Find a V that maximizes 
+                    the sum of the value of items taken =>  n-1
+                                                            Σ V[i] * I[i].value
+                                                            i=0
+                    subject to the constraint that
+                        the sum of the weight of items taken is less or equal to the max weight the knapsack can carry(w)              
+                            n-1    
+                            Σ V[i] * I[i].weight <= w 
+                            i=0
+                NB: When an item i is not taken, V[i] = 0
+                    ∴ the product is 0 * V[i].weight | 0 * V[i].value, which both equal 0
+                    ∴ does not contribute to the total weight or value taken 
+
+        -  Solution:
+
+        Practical Example 1: 
+            Informal description:
+                Context:
+                    Given:
+                        Food
+                
+                Objective: Choose foods to eat
+
+                Contraints:
+                    maximum 1500 calories
+
+            Mathematical description
+                item: (item_name, weight)
+                w = ??
+                L = (Banana, Apple, Pizza)
+                V = (0,0,0)
+
+Computation version:
+    filter out items with objective_function_value <= constraint
+    from filtered result:
+        take item whose objective_function_value "best fits"(< | > | ==) the 
+            objective function's goal(minimize | maximize)
+                relative to the contraint
