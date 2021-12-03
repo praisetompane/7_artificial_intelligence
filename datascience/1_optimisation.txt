@@ -155,7 +155,11 @@ Optimisation problems:
                             
                             See: restuarant.py and restuarant_test.py for implementation details
 
-
+                        - Limititations:
+                            makes a sequence of local optimisations,
+                                which does NOT necessarily add up to a globally optimal answer.
+                                i.e. it chooses the best solution at the specific point IT IS AT in the dataset 
+                                        AND NOT the best solution for the whole dataset.
                         
                         
         Practical Example 1: 
