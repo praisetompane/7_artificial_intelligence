@@ -1,3 +1,8 @@
+def: Model understand scenarios where you have:
+    - an objective(a measurable value, condition etc)
+        - that you want to minimize | maximize
+    - a set of constraints (can be empty)
+
 Optimisation
     properties:
         - objective: the thing you want to achieve/do/complete
@@ -8,8 +13,7 @@ Optimisation
             can be empty
             - eliminates solutions
     Examples: Going to Cape Town from Jozi either by Bus/Train/Flight    
-        - Context
-            Given:
+        - Given:
                 Flight cost = 2 hours, R1000
                 Train = 168 hours, R250
                 Bus = 72 hours, R450
@@ -59,7 +63,7 @@ Optimisation problems:
             - knapsack total weight: w
             - Vector L: list of available items
                 length: n
-                type: item = (item_name, objective_function_value)
+                type: item = (value, objective_function_value)
             - Vector V: list of items taken
                 length: n
                 type: bit
@@ -97,12 +101,67 @@ Optimisation problems:
                     ∴ does not contribute to the total weight or value taken 
 
         -  Solution:
+            - Brute force: 
+                - enumerate all possible combination of items(subsets)
+                    i.e. the powerset 
+                            this includes the empty set
+                    - remove all subsets whose total weight exceeds the allowed weight
+                    - from the remaining subsets, choose anyone whose value is the largest
+                        - can have draws, return anyone.
 
+                - Complexity: O(2ⁿ) = exponential: This is impractical and takes too long
+                        All the possible states the V can be in
+                        Given n = 10
+                                2¹⁰ = 1024, possible states for V
+
+                                1. |1|0|0|0|...|0|
+                                    0 1 2 3 ...1023
+                                
+                                2. |0|1|0|0|...|0|
+                                    0 1 2 3 ...1023
+                                
+                                3. |0|0|1|0|...|0|
+                                    0 1 2 3 ...1023
+                                .
+                                .
+                                .
+                                1024. |0|0|0|0|...|1|
+                                       0 1 2 3 ...1023
+                
+            - any other less complexity solution? = No othe solutions, we need to generate all possible combinations.
+                many optmization problems are inherently exponential.
+                    there exists no algorithm with less than exponential complexity.
+
+            - Practical alternatives based on the brute force(NOT PERFECT solutions => one of strategies to deal with computationally hard problems):
+                    - greedy algorithm: 
+                        while knapsack is not full
+                            put "best" available item into the knapsack
+                        what does "best" mean?
+                            define for problem.
+                        - Examples: Restuarant Meal
+                            Menu
+                                Food                               |wine | beer | pizza |burger |fries |coke |apple |donut |
+                                Value(How much you value this food)|89   |90    |30     |50     |50    |79   |90    |10    |
+                                Calories                           |123  |154   |258    |354    |365   |150  |95    |195   |
+
+                            Given:
+                                a menu of food
+                                your value for each food type
+
+                            Objective: choose which food you want to eat
+                                objective function: foods with the highest total value
+                            Contraints:
+                                maximum 750 calories
+                            
+                            See: restuarant.py and restuarant_test.py for implementation details
+
+
+                        
+                        
         Practical Example 1: 
             Informal description:
-                Context:
-                    Given:
-                        Food
+                Given:
+                    Food
                 
                 Objective: Choose foods to eat
 
@@ -110,7 +169,7 @@ Optimisation problems:
                     maximum 1500 calories
 
             Mathematical description
-                item: (item_name, weight)
+                item: (value, weight)
                 w = ??
                 L = (Banana, Apple, Pizza)
                 V = (0,0,0)
@@ -121,3 +180,8 @@ Computation version:
         take item whose objective_function_value "best fits"(< | > | ==) the 
             objective function's goal(minimize | maximize)
                 relative to the contraint
+
+Insights:
+    problems suitable for optmization model:
+        have a objective(a value, conidition, etc) that you are trying to maximise | minimizes
+        have a set of constraints (can be empty)
