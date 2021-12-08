@@ -3,14 +3,20 @@
 
    https://towardsdatascience.com/introduction-to-statistics-e9d72d818745
 
-1. MIT 6.036 Introduction to Machine Learning
+2. Statistics 
+
+3. Linear Algebra 
+
+4. Calculus 
+
+5. MIT 6.036 Introduction to Machine Learning
    https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-036-introduction-to-machine-learning-fall-2020/
    
-2. MIT 6.034 Artificial Intelligence
+6. MIT 6.034 Artificial Intelligence
    https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-034-artificial-intelligence-fall-2010/
 
-3. Geoffrey Hinton and Yann LeCun, 2018 ACM A.M. Turing Award Lecture "The Deep Learning Revolution"
+7. Geoffrey Hinton and Yann LeCun, 2018 ACM A.M. Turing Award Lecture "The Deep Learning Revolution"
    https://www.youtube.com/watch?v=VsnQf7exv5I&t=4930s
 
-4. DeepMind
+9. DeepMind
    https://www.youtube.com/channel/UCP7jMXSY2xbc3KCAE0MHQ-A
