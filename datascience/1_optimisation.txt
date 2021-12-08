@@ -128,9 +128,9 @@ Optimisation problems:
                                 1024. |0|0|0|0|...|1|
                                        0 1 2 3 ...1023
                 
-            - any other less complexity solution? = No othe solutions, we need to generate all possible combinations.
-                many optmization problems are inherently exponential.
-                    there exists no algorithm with less than exponential complexity.
+                    NB: Are any other less complexity solution? = No other solutions, we need to generate all possible combinations.
+                        many optmization problems are inherently exponential.
+                            there exists no algorithm with less than exponential complexity.
 
             - Practical alternatives based on the brute force(NOT PERFECT solutions => one of strategies to deal with computationally hard problems):
                     - greedy algorithm: 
@@ -155,12 +155,20 @@ Optimisation problems:
                             
                             See: restuarant.py and restuarant_test.py for implementation details
 
-                        - Limititations:
-                            makes a sequence of local optimisations,
-                                which does NOT necessarily add up to a globally optimal answer.
-                                i.e. it chooses the best solution at the specific point IT IS AT in the dataset 
-                                        AND NOT the best solution for the whole dataset.
+                        - Pros:
+                            - Easy to implement
+                            - Computationally efficient = O(NlogN)
+
+                        - Cons/Limititations:
+                            - gives an answer which may/may not be the maximum/minimum value we can get.
+                              And it does not provide how close to the optimal solution it is (THERE SOME THAT DO, BUT ARE SOPHISTICATED)
+                                i.e. makes a sequence of local optimisations,
+                                    which does NOT necessarily add up to a globally optimal answer.
+                                    i.e. it chooses the best solution at the specific point IT IS AT in the dataset 
+                                            AND NOT the best solution for the whole dataset.
                         
+            - Brute Force 
+                using Search Tree
                         
         Practical Example 1: 
             Informal description:
