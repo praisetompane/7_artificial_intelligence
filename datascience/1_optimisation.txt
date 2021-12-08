@@ -170,6 +170,13 @@ Optimisation problems:
             - Brute Force 
                 using Search Tree
                         
+                memoisation
+                    optimal substrucuture
+                    overlapping subproblems
+
+                    do we have the same items left consider and available weight in knapsack at more than 1 node? 
+                        if yes, then that is a "memoisable" problem
+
         Practical Example 1: 
             Informal description:
                 Given:
@@ -197,3 +204,15 @@ Insights:
     problems suitable for optmization model:
         have a objective(a value, conidition, etc) that you are trying to maximise | minimizes
         have a set of constraints (can be empty)
+
+Key take aways:
+    Many problems can be modelled/represented as OPTIMISATION problem
+
+    Optimisation problems are inherently exponential in complexity
+
+    Greedy algorithm acn solve the problem(but do no always provde the optimal solution)
+
+    Brute force algorithm + memoisation solve this exponentially hard problem:
+        - provides correct(optimal) solution
+        - often fast under correct circumstances.
+            i.e. the problem space has "memoisable"(see above) states(i.e. nodes, subproblems etc).
