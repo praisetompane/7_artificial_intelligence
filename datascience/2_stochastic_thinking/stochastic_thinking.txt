@@ -1,0 +1,74 @@
+def: handle uncertainty in computation models 
+
+physics observation(quantum physics): the world is inherently unpredictable?
+
+predictive nondeterminism: the fact that we(observers), do not have all(complete) information about the world, suggest we must treat it as inherently unpredictable.
+    stochastic process - ongoing process
+                            whose next state
+                            depends on previous state + some RANDOM element
+                            
+        Examples specification:
+            def roll_dice():
+                """return an int between 1 and 6"""
+                
+            def roll_dice():
+                """return a randomly chosen int between 1 and 6"""
+                
+        Examples implementation:
+            import random
+            
+            def roll_dice():
+                """return an int between 1 and 6""" 
+                random.choice([1,2,3,4,5,6]) #uniform distribution = equally probable to choose any number
+                
+            def test_roll_dice(rolls):
+                result = ''
+                for i in range(rolls):
+                    result += str(roll_dice())
+                print(result)
+                
+            Given:
+                rolls = 5
+            
+            How probable is it to return "11111"(string of 5 ones)?:
+                use discrete probabily:
+                    count number of events with property of interest(i.e. are "11111")
+                    divide by
+                    all possible events: all possible results of 5 rolls= 6^5
+                        e.g. 11111, 11112,11115 ... 21342,12342,
+                answer = 1/6^5 = unlikely
+            
+            Basic prbability facts
+                - probabilities range from 0 to 1
+                    0 = is not probable
+                    1 = definitely probable
+                - if an event has probability (p), the probability of it not happening is (1 - p) 
+                - if two events are indepedent
+                    the probability of the events happening
+                    is the product
+                        of the prabilities of the events
+                        
+                    Example:
+                        Given 
+                            probability of
+                                event A = 0.5 
+                                event B = 0.4
+                        Probability of Event A and B
+                            A * B
+                            0.5 * 0.4
+                            0.2
+                            Note it is lower, which is expected.
+                            Q: Probability of both happening has to be lower, but WHY?
+                            
+                    Two events are independent if
+                        the result of one event does not affect 
+                            the result of the other one
+                
+                Simulation:
+                    1. Run large sample size depending on the rarity of the event
+                    2. Be explicit that the result is a sampled probability
+                    3. No need to simulations, if the probability can computed analytically(in a closed form solution)
+                        e.g. probability of '11111' from 5 consecutive dice rolls = 1/6^5
+                                i.e. 6 possible value = *, **, ***, ****, *****, ******
+                                     5 rolls
+                                     1 => at least one 5 consecutive dice roll returning 11111

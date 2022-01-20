@@ -3,6 +3,8 @@ def: Model understand scenarios where you have:
         - that you want to minimize | maximize
     - a set of constraints (can be empty)
 
+problem pattern: find the biggest, smallest, lowest, highest, fewest, fastest, least expensive etc
+                    with some constraints(can be none)
 Optimisation
     properties:
         - objective: the thing you want to achieve/do/complete
@@ -100,7 +102,7 @@ Optimisation problems:
                     ∴ the product is 0 * V[i].weight | 0 * V[i].value, which both equal 0
                     ∴ does not contribute to the total weight or value taken 
 
-        -  Solution:
+        -  Solutions:
             - Brute force: 
                 - enumerate all possible combination of items(subsets)
                     i.e. the powerset 
@@ -169,7 +171,11 @@ Optimisation problems:
                         
             - Brute Force 
                 using Search Tree
-                        
+                    Example Tree:
+                                                               root
+                consequenece of taking current element {take} /   \{don't take} consequenece of not taking the current element
+                    NB: convention: left = take, right = don't take
+
                 memoisation
                     optimal substrucuture
                     overlapping subproblems

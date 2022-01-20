@@ -2,6 +2,9 @@ def: model: an experimental device that can help us understand something that:
     - has happened
     - hasn't heppened(predict the future)
 
+computation models:
+    how can we use computation to help us understand something?
+    
 Kinds of models:
     1. Optmisation
     2. Statistical
