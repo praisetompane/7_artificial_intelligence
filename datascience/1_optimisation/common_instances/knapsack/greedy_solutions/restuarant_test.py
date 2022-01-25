@@ -1,8 +1,10 @@
 """
-    Source: https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-0002-introduction-to-computational-thinking-and-data-science-fall-2016/lecture-videos/lecture-1-introduction-and-optimization-problems/
+    References: 
+    https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-0002-introduction-to-computational-thinking-and-data-science-fall-2016/lecture-videos/lecture-1-introduction-and-optimization-problems/
 """
 
-from restuarant import Food, greedy, buildMenu
+from restuarant import Food, buildMenu
+from greedy import greedy
 
 def _test_greedy(menu, constraint, keyFunction):
     taken, total_value = greedy(menu, constraint, keyFunction)

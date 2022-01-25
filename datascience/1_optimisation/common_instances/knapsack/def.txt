@@ -1,0 +1,85 @@
+- KnapSnack problem
+        - Types of this problem:
+            - 0/1 version: take whole item(s) or not
+                - a choice affect future options
+            - Continous version: allowed to take pieces of items.
+                solution: 
+                    - keep taking item pieces until KnapSnack is full or item has ran out, then
+                    repeat for the next most valuable.
+                    - Greedy algorithm
+                    - Easy to solve
+
+        - Informal Definition:
+            Context:
+                Given:
+                    Material
+                        Gold, Silver, Raisans
+                    KnapSnack(Bag), with limited(finite) capacity
+            
+            Objective: Take material(s) with the highest total value
+                objective function: highest total value
+                    operation: maximize
+
+            Constraint:
+                material has to fit in KnapSnack
+                    
+        - Formal Definition:
+            - item I: pair <value, weight>
+            - knapsack total weight: w
+            - Vector L: list of available items
+                length: n
+                type: item = (value, objective_function_value)
+            - Vector V: list of items taken
+                length: n
+                type: bit
+                    when:
+                        1, item is taken
+                        0, item is not taken
+                        Example:
+                            When:   
+                                V[3] (item 3) = 1, then item 3 is taken
+                                V[1] (item 1) = 0, then item 1 is NOT taken
+
+            - Objective: 
+                Find a V that maximizes
+                    n-1
+                    Σ V[i] * I[i].value
+                    i=0
+                    
+                    subject to the constraint that
+                        n-1    
+                        Σ V[i] * I[i].weight <= w 
+                        i=0
+
+                In english: 
+                Find a V that maximizes 
+                    the sum of the value of items taken =>  n-1
+                                                            Σ V[i] * I[i].value
+                                                            i=0
+                    subject to the constraint that
+                        the sum of the weight of items taken is less or equal to the max weight the knapsack can carry(w)              
+                            n-1    
+                            Σ V[i] * I[i].weight <= w 
+                            i=0
+                NB: When an item i is not taken, V[i] = 0
+                    ∴ the product is 0 * V[i].weight | 0 * V[i].value, which both equal 0
+                    ∴ does not contribute to the total weight or value taken 
+        
+        - Complexity: O(2ⁿ) = exponential: This is impractical and takes too long
+            All the possible states the V can be in
+            Given n = 10
+                    2¹⁰ = 1024, possible states for V
+
+                    1. |1|0|0|0|...|0|
+                        0 1 2 3 ...1023
+                    
+                    2. |0|1|0|0|...|0|
+                        0 1 2 3 ...1023
+                    
+                    3. |0|0|1|0|...|0|
+                        0 1 2 3 ...1023
+                    .
+                    .
+                    .
+                    1024. |0|0|0|0|...|1|
+                            0 1 2 3 ...1023
