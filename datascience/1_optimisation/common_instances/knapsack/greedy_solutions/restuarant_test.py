@@ -19,7 +19,7 @@ def test_greedys(max_unit):
     foods = ['wine ', 'beer ', 'pizza', 'burger ',
              'fries ', 'coke ', 'apple ', 'donut']
     values = [89, 90, 30, 50, 50, 79, 90, 10]
-    calories = [123, 154, 258, 354, 365, 150, 95, 195]
+    calories = [123, 154, 258, 354, 365, 150, 1, 195]
 
     menu = buildMenu(foods, values, calories)
 

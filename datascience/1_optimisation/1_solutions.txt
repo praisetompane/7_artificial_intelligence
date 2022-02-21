@@ -61,7 +61,19 @@
         consequenece of taking current element {take} /   \{don't take} consequenece of not taking the current element
             NB: convention: left = take, right = don't take
 
-        memoisation
+        Complexity = 
+            Time = number of nodes we generate
+                number of levels in tree = number of items
+                        each level represents a choice to take or not take an item.
+        
+                number of nodes per level = 2ⁱ, i >= 0, i = level index
+
+                number of nodes in tree =   i=n
+                                            ∑ 2ⁱ
+                                            i=0
+                    ∴ 2ⁿ⁺¹ 
+                    ∴ O(2ⁿ)                                            
+        Memoisation
             optimal substrucuture
             overlapping subproblems
 
