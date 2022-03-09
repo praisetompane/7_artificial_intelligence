@@ -9,9 +9,10 @@ components²:
         KEY: a random sample tends to exhibits the same properties of population. 
             
 predicting/guessing outcome:
-    2 sample outcome A => no/very low confidence
-    100 sample outcome A => high confidence of next outcome to be A
-    52 sample outcome A, 48 outcome B => 52/100 confidence, not high confidence
+    Given:
+        2 sample outcome A => no/very low confidence
+        100 sample outcome A => high confidence of next outcome to be A
+        52 sample outcome A, 48 outcome B => 52/100 confidence, not high confidence
 
     Why different confidence?
         Varibility => variance
