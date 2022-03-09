@@ -1,4 +1,4 @@
-def: handle uncertainty in computation models 
+method to model and handle uncertainty in computation models 
 
 physics observation(quantum physics): the world is inherently unpredictable?
 

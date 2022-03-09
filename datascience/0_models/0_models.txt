@@ -5,8 +5,21 @@ def: model: an experimental device that can help us understand something that:
 computation models:
     how can we use computation to help us understand something?
     
-Kinds of models:
-    1. Optmisation
+Kinds of models¹ :
+    Prescriptive = tell you WHAT to DO to get an effect
+        1. Optmisation
+        In order to make this happen(effect), you must do DO this
+    
+    Descriptive = describes/shows possible effect/outcomes (NOT how to achieve an effect/outcome)
+        3. Simulation
+        if I do this, here is what happens(effect)
+        when to use:
+            mathematically intractable problems/effects
+            get intermediate results to an effect
+            answer increasinglt somplex what if questions
+        
     2. Statistical
-    3. Simulation
 
+
+references
+1. https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-0002-introduction-to-computational-thinking-and-data-science-fall-2016/lecture-videos/lecture-4-stochastic-thinking/
