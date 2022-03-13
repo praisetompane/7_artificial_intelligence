@@ -1,0 +1,13 @@
+a description of computations 
+    that provide useful information
+        about the possible behaviors 
+            of the system being modelled.
+
+ENLISH: 
+    A description of actions
+    AND the possible behaviors/results in the system
+
+Use case: 
+    - Model mathematically intractable systems
+    - Extract intermediate results/state of process/computation/system
+    - Model increasingly complex and/or cumulative what if scenarios

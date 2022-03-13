@@ -1,0 +1,11 @@
+def 1 a mathematical object
+    known as a stochastic or random process
+    that describes a path across a mathematical space
+        defined by a succession of random steps¹ 
+
+def 2 a proces by which
+        randomly moving objects
+            wandewr away from their intial positions² 
+references
+    1 https://en.wikipedia.org/wiki/Random_walk
+    2 Random Walks - MIT, https://www.mit.edu/~kardar/teaching/projects/chemotaxis(AndreaSchmidt)/random.htm

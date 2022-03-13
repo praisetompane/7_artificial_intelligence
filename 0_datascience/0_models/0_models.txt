@@ -16,7 +16,10 @@ Kinds of models¹ :
         when to use:
             mathematically intractable problems/effects
             get intermediate results to an effect
-            answer increasinglt somplex what if questions
+            answer increasingly more complex what if questions
+    
+    Predictive?: predict what will happen
+                example: predict the value of an unknown quantity or random variable
         
     2. Statistical
 

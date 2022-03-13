@@ -1,0 +1,48 @@
+estimating/predicting/guessing outcome:
+    2 sample outcome A => no/very low confidence
+    100 sample outcome A => high confidence of next outcome to be A
+    52 sample outcome A, 48 outcome B => 52/100 confidence, not high confidence
+
+    Why different confidence?
+        Varibility => variance
+            high variance => less confidence. need larger sample for same confidence.
+            low variance => high confidence. need smaller sample for same confidence.
+
+        Example:
+            Roulette
+                100 spins, same bet = high variance of expected return.
+                    SN: the high variance is what makes it Gambling attractive to people.
+                1000000 spins, same bet = low variance variance of expected return.
+
+    Statistics thereoms that explain and predict these observations:
+        Law of Large Numbers:
+            def: Given repeated indepedent tests
+                    with same probability p for some outcome A
+                    the chance 
+                        that the fraction of times
+                            outcome A occurs
+                        differs from p coverges to 0(zero)
+                    as the number of tests approaches infinity
+            ENGLISH: Given inifinte spins, expected return is 0?
+
+            Misconceptions: if deviations from norm occur, 
+                                the norm is more likely to even out events.
+
+                - Gambler's Fallacy
+                    summary: subsequent will be BELOW the Mean, to even out the extreme events.
+
+        Regression to the Mean:
+            def: following an extreme event
+                    the next random event is likely to be less extreme
+            example: 
+                child height:
+                    assumption: people height is random(NOT accounting for genetics)
+                    given 
+                        2 parents 
+                            taller than average
+                        child islikely to be shorter than average
+
+                roullete:
+
+references: 
+    John Guttag, Lecture 6: Monte Carlo Simulation, MIT 6.0002, https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-0002-introduction-to-computational-thinking-and-data-science-fall-2016/lecture-videos/lecture-6-monte-carlo-simulation/

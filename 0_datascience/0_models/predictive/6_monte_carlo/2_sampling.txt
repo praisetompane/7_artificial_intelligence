@@ -1,0 +1,58 @@
+Sampling:
+    perfect accuracy NOT guaranteed.
+    differentiate:
+        - what happens to be true
+                    from
+        - what we know is true(through rigor/good reason)
+
+    Core Computational Statistics Question:
+        How many samples do we need to look at
+            to have justifiable confidence in the answer?
+            
+            - Depends on: 
+                variability of possibilities in the data
+                    
+                    Quantity variability
+                        X = list of possible possibilities
+                        μ = Mean of X
+                    
+                        variance(X) = ΣₓₑX (x - μ)² 
+                                     ---------------
+                                           |X|
+
+                                    English: sum of 
+                                                how far from the mean
+                                                    each possibilty(xₑX) is
+                                                    i.e. How different from the mean is each value?
+                                             squared
+                                             divided by number of elements
+                                    
+                                    Why sqaure?
+                                        Do not care if distance negative/positive
+                                        Distincly highlights the outliers
+
+                                    Why divide by |X|?
+                                        We don't want to say
+                                            X has high variance
+                                                because it has large population.
+                                        i.e. normalises by number of members
+
+                        Standard deviation = σ(X) = sqrt(variance(X))
+                                                  = sqrt(
+                                                           1  
+                                                          --- Σ(x - μ)² 
+                                                          |X|ₓₑX      
+                                                        )
+
+                                i.e squareroot of variance(X)
+                            English: By what value are the members(looked as a whole) different from the Mean.
+                                     i.e. By how much do they "deviate" from the Mean
+
+                            MUST always be thought in context of Mean
+                            Example: 
+                                standard deviation = 100 => meanignless
+                                standard deviation = 100 and Mean = 100 => standard deviation is large
+                                standard deviation = 100 and Mean = 1000000000 => standard deviation is small
+
+references: 
+    John Guttag, Lecture 6: Monte Carlo Simulation, MIT 6.0002, https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-0002-introduction-to-computational-thinking-and-data-science-fall-2016/lecture-videos/lecture-6-monte-carlo-simulation/
