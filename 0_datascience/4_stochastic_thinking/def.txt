@@ -2,6 +2,14 @@ method to model and handle uncertainty in computation models
 
 physics observation(quantum physics): the world is inherently unpredictable?
 
+def deterministic process: process that given the same input produces the same output.³ 
+
+def stochastic process: process in which the output can depend on a random element.⁴
+    properties:
+        usualy uncertain output
+        ∴ use probabilistic statements to describe the possibe output
+
+
 predictive nondeterminism: the fact that we(observers), do not have all(complete) information about the world, suggest we must treat it as inherently unpredictable.
     stochastic process - ongoing process
                             whose next state
@@ -72,3 +80,7 @@ predictive nondeterminism: the fact that we(observers), do not have all(complete
                                 i.e. 6 possible value = *, **, ***, ****, *****, ******
                                      5 rolls
                                      1 => at least one 5 consecutive dice roll returning 11111
+
+references:
+    3,4 Guttag, John. Introduction to Computation and Programming Using Python: With Application to Understanding Data. 2nd ed. MIT Press, 2016. ISBN: 9780262529624
+     
