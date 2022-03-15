@@ -9,3 +9,13 @@ def 2 a proces by which
 references
     1 https://en.wikipedia.org/wiki/Random_walk
     2 Random Walks - MIT, https://www.mit.edu/~kardar/teaching/projects/chemotaxis(AndreaSchmidt)/random.htm
+
+bolded concepts:
+    determinisric program
+    stochastic process
+    simulation model
+    random walks
+        linear relationship between number of steps taken and distance from origin? Figure 14.5
+    drunkards walk
+    biased random walk
+    treacherous fields
