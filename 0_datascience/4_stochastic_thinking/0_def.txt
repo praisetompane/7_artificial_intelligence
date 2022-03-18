@@ -1,4 +1,10 @@
-def method to model and handle uncertainty in computation models 
+def method to model and handle uncertainty in computation models in which
+    we are modelling and trying to understand the real world or a world with uncertainty.
+
+CONTRAST: In classical programming we encode a set of deterministic rules, for a 
+                world(domain) that are creating.
+                rules:logic, expected data
+                In the event of an invocation of the process that violdates the rules, we fail gracefully.
 
 physics observation(quantum physics): the world is inherently unpredictable?
 def predictive nondeterminism: the fact that we(observers), do not have all(complete) information about the world, suggest we must treat it as inherently unpredictable.
