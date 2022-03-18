@@ -1,0 +1,29 @@
+def method to model and handle uncertainty in computation models 
+
+physics observation(quantum physics): the world is inherently unpredictable?
+def predictive nondeterminism: the fact that we(observers), do not have all(complete) information about the world, suggest we must treat it as inherently unpredictable.
+
+CONTRAST: def deterministic process: process that given the same input produces the same output.³ 
+
+def stochastic process: process in which the output can depend on a random element.⁴
+    properties:
+        usualy uncertain output
+        ∴ use PROBABILISTIC STATEMENTS to describe the possibe output 
+                            
+        Example specification:
+            def roll_dice():"""return an int between 1 and 6"""
+                Underdetermined specification  
+                    do not neccessarily know the next value BUT does NOT have REQUIRE randomness
+                    Can return:
+                        a different value each roll
+                        return the same value each roll
+                
+            def roll_dice(): """return a randomly chosen int between 1 and 6"""
+                Stochastic specification
+                    REQUIRES a random value to be returned each call
+            
+            Refer to "0_roll_dice.py" for example implementation of both specs
+
+references:
+    3,4 Guttag, John. Introduction to Computation and Programming Using Python: With Application to Understanding Data. 2nd ed. MIT Press, 2016. ISBN: 9780262529624
+     

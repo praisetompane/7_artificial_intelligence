@@ -1,0 +1,10 @@
+def simulation:
+    refer to 0_models/descriptive/simulation
+
+    1. Run large sample size depending on the rarity of the event
+    2. Be explicit that the result is a sampled probability
+    3. No need to run simulations, if the probability can computed analytically(in a closed form solution)
+        e.g. probability of '11111' from 5 consecutive dice rolls = 1/6^5
+                i.e. 6 possible value = *, **, ***, ****, *****, ******
+                        5 rolls
+                        1 => at least one 5 consecutive dice roll returning 11111

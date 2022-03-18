@@ -1,0 +1,27 @@
+def probability: ???
+
+Basic prbability facts
+    - probabilities range from 0 to 1
+        0 = is not probable
+        1 = definitely probable
+    - if an event has probability (p), the probability of it not happening is (1 - p) 
+    - multiplicative law: if two events are indepedent
+        the probability of the events happening
+        is the product
+            of the prabilities of the events
+            
+        Example:
+            Given 
+                probability of
+                    event A = 0.5 
+                    event B = 0.4
+            Probability of Event A and B
+                A * B
+                0.5 * 0.4
+                0.2
+                Note it is lower, which is expected.
+                Q: Probability of both happening has to be lower, but WHY?
+                
+        Two events are independent if
+            the result of one event does not affect 
+                the result of the other one
