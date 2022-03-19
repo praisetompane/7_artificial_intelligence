@@ -140,3 +140,11 @@ dmypy.json
 .metals
 
 .dccache
+
+# Administrative
+targets.txt
+todo.txt
+research_topics.txt
+schools.txt
+companies.txt
+chapter_breakdown.txt
