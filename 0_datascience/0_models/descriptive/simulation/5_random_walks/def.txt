@@ -1,5 +1,4 @@
 def 1 a mathematical object
-    known as a stochastic or random process
     that describes a path across a mathematical space
         defined by a succession of random steps¹ 
 
@@ -13,6 +12,17 @@ use cases³ :
         physical processes(e.g. diffusion)
         biological processes(e.g. the kinetics of the displace of RNA)
         social processes(e.g. movement of stock market)
+
+types:
+    - standard/"normal"
+    - biased
+
+    - standard/"normal": all possible random step choices are equally likely to happen.
+    - biased: certain step choices are more desired, therefore more likely to happen.
+                e.g. highly weighted
+              desired step choices have greater effect
+                e.g. Given, we want to end in South
+                     Then, walk more steps in desired direction(1 step if direction north, but 2 if direction south)
 
 Examples Random Walk⁴: 
     - browniam motion
@@ -65,12 +75,3 @@ references:
     2 Random Walks - MIT, https://www.mit.edu/~kardar/teaching/projects/chemotaxis(AndreaSchmidt)/random.htm
     3,4 Guttag, John. Introduction to Computation and Programming Using Python: With Application to Understanding Data. 2nd ed. MIT Press, 2016. ISBN: 9780262529624
     
-bolded concepts:
-    determinisric program
-    stochastic process
-    simulation model
-    random walks
-        linear relationship between number of steps taken and distance from origin? Figure 14.5
-    drunkards walk
-    biased random walk
-    treacherous fields
