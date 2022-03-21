@@ -1,11 +1,10 @@
 def method to model and handle uncertainty in computation models in which
-    we are modelling and trying to understand the real world or a world with uncertainty.
+    we are modelling and trying to understand the real world(which is unceratin) or a world with uncertainty.
 
 CONTRAST: In classical programming we encode a set of deterministic rules, for a 
                 world(domain) that are creating.
-                rules:logic, expected data
+                rules:{logic, expected data,...}
                 In the event of an invocation of the process that violdates the rules, we fail gracefully.
-
 
 CONTRAST: def deterministic process: process that given the same input produces the same output.³ 
 
@@ -53,7 +52,7 @@ def stochastic process: process in which the output can depend on a random eleme
             probability of any character sequence = 
                 probability of 1ˢᵗ character's value(Heads or Tails) * 
                 probability of 2ⁿᵈ character's value(Heads or Tails) * 
-                probability of 3ʳᵈ character's value(Heads or Tails)... * 
+                probability of 3ʳᵈ character's value(Heads or Tails) * ... 
                 probability of nᵗʰ character's value(Heads or Tails)
 
             ∴ for 2 coin flips
@@ -61,7 +60,7 @@ def stochastic process: process in which the output can depend on a random eleme
                     probability rule applied here = multiply probability of independent events
                         to get probability of both happening
 
-                        Q: What the events(values) were NOT independent? => Use Conditional Probability
+                        Q: What if the events(values) were NOT independent? => Use Conditional Probability
                             as opposed to Discrete Probability applied above?
                             
                 Another representation:

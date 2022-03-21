@@ -6,7 +6,7 @@ Basic prbability facts
         1 = definitely probable
     - if an event has probability (p), the probability of it not happening is (1 - p) 
     - multiplicative law: if two events are indepedent
-        the probability of the events happening
+        the probability of the both events happening
         is the product
             of the prabilities of the events
             
