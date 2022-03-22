@@ -60,9 +60,9 @@ Examples Random Walk⁴:
                     h is the diagonal from intial position to where the point where "up" move from the "left" move
                         would position her.
 
-                            /|
+                             /|
                         h   / | length = 1(i.e virtical move)
-                        ----
+                           ----
                         length = 1(i.e. horizontal move)
 
                         h² = horizontal² + virtical²
