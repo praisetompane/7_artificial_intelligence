@@ -1,8 +1,13 @@
-8. MIT 6.036 Introduction to Machine Learning
+1. MIT 6.036 Introduction to Machine Learning
    https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-036-introduction-to-machine-learning-fall-2020/
 
-9. MIT 6.034 Artificial Intelligence
+2. 2-Aurélien-Géron-Hands-On-Machine-Learning-with-Scikit-Learn-Keras-and-Tensorflow_-Concepts-Tools-and-Techniques-to-Build-Intelligent-Systems-O’Reilly-Media-2019
+
+3. MIT 6.034 Artificial Intelligence
    https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-034-artificial-intelligence-fall-2010/
 
-10. Geoffrey Hinton and Yann LeCun, 2018 ACM A.M. Turing Award Lecture "The Deep Learning Revolution"
+4. Geoffrey Hinton and Yann LeCun, 2018 ACM A.M. Turing Award Lecture "The Deep Learning Revolution"
     https://www.youtube.com/watch?v=VsnQf7exv5I&t=4930s
+
+
+2006, Geoffrey Hinton et al, http://www.cs.toronto.edu/~hinton/.
