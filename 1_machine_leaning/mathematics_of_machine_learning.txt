@@ -1,0 +1,21 @@
+Predicting Best fit line/curve to approximate data :
+    gradient descent
+    linear regression
+
+    derivative
+    partial derivative
+
+
+    y = mx + c
+        c is the y intercept? What is that?
+
+Logistic Regression:
+    Predict output that can only assume two binary values
+        Pass or Fail?
+        Break or Not?
+        Develop Disease or Not Develop Disease?
+
+    sigmoid function: function that exists only between 0 and 1 
+
+references:
+    Zach Star, The Mathematics of Machine Learning. https://www.youtube.com/watch?v=Rt6beTKDtqY
