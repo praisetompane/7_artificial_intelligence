@@ -1,0 +1,7 @@
+Main Regions and Notable landmarks of the Continent of Machine Learning³:
+- Supervised Learning vs Unsupervised Learning
+- Batch Learning vs Online Learning 
+- Instance Based Learning vs Model Based Learning 
+
+references:
+    3 Hands-On Machine Learning with Scikit-Learn, Keras and TensorFlow by Aurélien Géron (O’Reilly). Copyright 2019 Aurélien Géron, 978-1-492-03264-9.

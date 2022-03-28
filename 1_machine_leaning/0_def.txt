@@ -1,54 +1,30 @@
-def 0: the file of study that gives computers the ability to learn without being explicitly programmed.¹
+def 1: The fiele dof study that gives computers
+            the ability to learn without being explicitly programmed.¹ 
         - Arthur Samuel, 1959
- 
-def 1: the science of programing computers to learn from data.² 
-    Q: What instrcutions do we give the computer?
-        Mathematical learning algorithms?
-        Example?
 
-def 2:⁴ a computer program is said to learn from experience E
-            with respect to a task T and some performance measure P
-        if its performance of T has improved as measured by P from experience E.
+def 2: The science(and art) of programming computers to learn from data.² 
+        Q: How do we program computers to LEARN from DATA?
+            => mathematical algoriths
 
-def 3: https://ocw.mit.edu/resou 5rces/res-ll-005-mathematics-of-big-data-and-machine-learning-january-iap-2020/class-videos/
+def 3:³ A machine is said to learn from experience E
+        with respect to task T
+        as measured by P
+        IF, it improves the execution of T 
+                as measured by P
+                AFTER "experiencing" E
 
-Main Regions and Notable landmarks of the Continent of Machine Learning³:
-- Supervised Learning vs Unsupervised Learning
-- Batch Learning vs Online Learning 
-- Instance Based Learning vs Model Based Learning 
+def training set: data used to train the the computer⁴ 
+    def training instance(sample): each example in the training set
 
 
-ML Use Cases: 
-    - Problems which requires creating and updating long list of rules or hand-tuning to solve.
-    - Complex Problems: Problems for which there is no good traditional programming solution.
-    - Fluctuating Environments: Problems for which the data is constantly changing.
-    - Understanding complex problems or large volumes of data(i.e. data mining)
-
-Chaptet 22 Core Concepts: Guttag, John. Introduction to Computation and Programming Using Python: With Application to Understanding Data. 2nd ed. MIT Press, 2016. ISBN: 9780262529624
-
-    statistical machine learning  
-    generalization          
-    training data
-    feature vectors
-        supervised learning
-        regression models
-        classification models
-        unsupervised learning
-    latent variable
-
-    Clustering
-
-    Features 
-        def?
-        Signal to Noise ratio
-        feature engineering
-
-    Distance Metrics
-
-    Minkowski Distance
-
-    Manhattan Distance
+Example⁵:
+    Email Spam Flagging
+        T := flag spam emails from incoming email
+        E := training set with spam examples
+        P := number of correctly classified spam/ total number of emails
+            i.e. accuracy measure
+            i.e. ratio of correctly flagged new email to total new email
 
 references:
     1 https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-0002-introduction-to-computational-thinking-and-data-science-fall-2016/lecture-videos/lecture-4-stochastic-thinking/, pg 371
-    2,3 Hands-On Machine Learning with Scikit-Learn, Keras and TensorFlow by Aurélien Géron (O’Reilly). Copyright 2019 Aurélien Géron, 978-1-492-03264-9.
+    2,3,4,5 Hands-On Machine Learning with Scikit-Learn, Keras and TensorFlow by Aurélien Géron (O’Reilly). Copyright 2019 Aurélien Géron, 978-1-492-03264-9.

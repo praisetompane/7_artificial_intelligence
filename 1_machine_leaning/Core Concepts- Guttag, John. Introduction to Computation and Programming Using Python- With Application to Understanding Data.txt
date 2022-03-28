@@ -1,0 +1,22 @@
+statistical machine learning  
+generalization          
+training data
+feature vectors
+    supervised learning
+    regression models
+    classification models
+    unsupervised learning
+latent variable
+
+Clustering
+
+Features 
+    def?
+    Signal to Noise ratio
+    feature engineering
+
+Distance Metrics
+
+Minkowski Distance
+
+Manhattan Distance

@@ -1,0 +1,4 @@
+- Problems which requires creating and updating long list of rules or hand-tuning to solve.
+- Complex Problems: Problems for which there is no good traditional programming solution.
+- Fluctuating Environments: Problems for which the data is constantly changing.
+- Understanding complex problems or large volumes of data(i.e. data mining)
