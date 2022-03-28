@@ -1,4 +1,73 @@
-- Problems which requires creating and updating long list of rules or hand-tuning to solve.
-- Complex Problems: Problems for which there is no good traditional programming solution.
-- Fluctuating Environments: Problems for which the data is constantly changing.
-- Understanding complex problems or large volumes of data(i.e. data mining)
+UC 1:
+    Traditional Email Spam Flagging Programming Implementation¹
+
+        1. Identify patterns in Spam email.
+            Words/Phrases used = {4U, Credit Card, Winner, Lucky Day}
+
+        2. Write rules to detect patterns identified(in step 1).
+            Flag email as spam if certain number of these patterns detected.
+
+        3. Test and repeat Step 1 and 2 until implementation works.
+
+        Pros:
+            Precise rules based on seen examples
+
+        Cons:
+            Long and complex rules list
+                - difficult to:
+                    - maintain
+                    - update
+
+        Flow:
+                                                            Launch
+                                                                ↑ Pass Testing
+                                                                |
+            Study The Problem --> Write The Rules --> Evaluate the Solution
+                    ↑                                           |
+                    |                                           ↓ Fail Testing
+                    -------------Analyze The Errors--------------
+
+
+    Machine Learning Email Spam Flagging Implementation²:
+
+        1. Gather email data
+            Ham email
+            Spam email
+
+        2. Train ML model to flag spam
+            - ML model identifies spam email patterns
+
+        3. Test and repeat Step 1 and 2 until implementation works
+
+        Flow:
+
+                                    Email Data             Launch
+                                        |                      ↑ Pass Testing
+                                        ↓                      |
+            Study The Problem --> Train ML Model --> Evaluate the Solution
+                        ↑                                      |
+                        |                                      ↓ Fail Testing
+                        ----------Analyze The Errors-----------
+
+        Pros:
+            Simpler Code
+        Cons:
+            Rules are known by model and NOT explicit(given the current state of the art ~2022-March-28)
+
+        Flow: Automatically Adapting To Change ML Model³ 
+
+                    --------------Update Email Data <-------------- Launch
+                    |                    |      {Automated Cycle}       ↑ Pass Testing
+                    ↓                    ↓                              |
+                    Email Data --> Train ML Model --> Evaluate the Solution
+                
+
+Broad Classes OF Machine Learning Suitable Problems:
+    - UC1 : Problems which requires creating and updating long list of rules or hand-tuning to solve.
+    - Complex Problems: Problems for which there is no good traditional programming solution.
+    - Fluctuating Environments: Problems for which the data is constantly changing.
+    - Understanding complex problems or large volumes of data(i.e. data mining)
+
+
+references:
+    1,2,3 Hands-On Machine Learning with Scikit-Learn, Keras and TensorFlow by Aurélien Géron (O’Reilly). Copyright 2019 Aurélien Géron, 978-1-492-03264-9, pg 5.
