@@ -1,7 +1,55 @@
-Main Regions and Notable landmarks of the Continent of Machine Learning³:
-- Supervised Learning vs Unsupervised Learning
-- Batch Learning vs Online Learning 
-- Instance Based Learning vs Model Based Learning 
+Main Regions and Notable landmarks of the Continent of Machine Learning¹:
+
+    Are they trained with/without human supervision and what type of supervision?
+        S1: Supervised Learning
+        S2: Unsupervised Learning
+        S3: Semi-Supervised Learning
+        S4: Reinforcement Learning
+
+    Can they learn incrementally on the fly(i.e. real time)?
+        I1: Batch Learning
+        I2: Online Learning 
+
+    Do they wpok by just matching new points to known points or identify patterns in training data to build a predicitive model(like scientists)?
+        P1: Instance Based Learning
+        P2:  Model Based Learning 
+
+
+    S1:
+        def: algorithm is given training data 
+            with labelled instances
+                (i.e. labels say what the instance is)
+                Example: Spam or Ham email, Cat or Dog, Number or Letter, etc
+        
+        def instance: a manifestation of class of object
+
+        def class: a category
+            Example: Cat
+        
+        Typical use cases:
+            classification:
+                training data instances are labelled with a "class"
+
+            regression: 
+                using a set of features(predictors) to predict a TARGET NUMERIC value.
+                can also be used for classification(e.g. logistic regression)
+
+        def attribute: a property/datatype of an object
+            height (for a person)
+            cylinders (for an engine)
+
+        def feature(common): an attribute and its value
+            height = 180cm
+            cylinders = 6
+
+
+        Important Algorithms:
+            - K-Nearest neighbour
+            - Linear Regression
+            - Logistic Regression
+            - Support Vector Machines
+            - Decision Trees and Random Forests
+            - Neural Networks(can also be unsupervised)
 
 references:
-    3 Hands-On Machine Learning with Scikit-Learn, Keras and TensorFlow by Aurélien Géron (O’Reilly). Copyright 2019 Aurélien Géron, 978-1-492-03264-9.
+    1 Hands-On Machine Learning with Scikit-Learn, Keras and TensorFlow by Aurélien Géron (O’Reilly). Copyright 2019 Aurélien Géron, 978-1-492-03264-9.

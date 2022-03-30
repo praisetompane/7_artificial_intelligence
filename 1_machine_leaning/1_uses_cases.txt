@@ -62,12 +62,22 @@ UC 1:
                     Email Data --> Train ML Model --> Evaluate the Solution
                 
 
-Broad Classes OF Machine Learning Suitable Problems:
+Broad Classes OF Machine Learning Suitable Problems⁴:
     - UC1 : Problems which requires creating and updating long list of rules or hand-tuning to solve.
-    - Complex Problems: Problems for which there is no good traditional programming solution.
-    - Fluctuating Environments: Problems for which the data is constantly changing.
-    - Understanding complex problems or large volumes of data(i.e. data mining)
+    - UC2: Complex Problems: Problems for which there is no good traditional programming solution.
+        Speech Recognition
+    - UC3: Fluctuating Environments: Problems for which the data is constantly changing.
+    - UC4: Understanding complex problems or large volumes of data(i.e. data mining)
+        - Some of the algorithms can be "unpacked" to see what they have "learned"
+        - This can be used to study large amounts of data
 
+            Study The Problem --> Train ML Model --> Evaluate the Solution
+                    ↑                    ↑                     |
+                    |                    |                     ↓
+                    |            "Lots" of Data      Unpack Solution
+                    |                                          |
+                    |                                          ↓
+            Iterate If Needed<-----------------------Understand Problem Better
 
 references:
-    1,2,3 Hands-On Machine Learning with Scikit-Learn, Keras and TensorFlow by Aurélien Géron (O’Reilly). Copyright 2019 Aurélien Géron, 978-1-492-03264-9, pg 5.
+    1,2,3,4 Hands-On Machine Learning with Scikit-Learn, Keras and TensorFlow by Aurélien Géron (O’Reilly). Copyright 2019 Aurélien Géron, 978-1-492-03264-9, pg 5.
