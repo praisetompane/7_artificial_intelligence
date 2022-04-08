@@ -1,0 +1,20 @@
+        Sensors(iOT, Cellphones, ...)¹                                                                         Users(Missions)
+                --Structured Data  --->               information      knowledge                           Autonomous vehicles(cars, planes)
+                                        Data Conditioning ---> Algorithms ---> Human-Machine CoTeam --->   Medical Practioners                                
+                --UnStructured Data--->                                                                            |
+        Sources(Youtube, FaceBook, ...)                                                                            |
+            ^                                                                                                      |
+            |------------------------------------------------------------------------------------------------------|
+                                                            ^
+                                                            |
+                                                    Modern Computing
+                                CPUs    GPUs    TPUs    Neuromphic    Custom    Quantum
+-------------------------------------------------------------------------------------------------------------------------
+                                                Robust AI
+Explainable AI  Accuracy and Bias Measurements  Verification and Validation Security    Ethics, Policies, Safety and Training
+-------------------------------------------------------------------------------------------------------------------------
+
+references:
+
+1 Jeremy Kepner, and Vijay Gadepally. RES.LL-005 Mathematics of Big Data and Machine Learning. January IAP 2020.
+        Massachusetts Institute of Technology: MIT OpenCourseWare, https://ocw.mit.edu. https://www.youtube.com/watch?v=t4K6lney7Zw
