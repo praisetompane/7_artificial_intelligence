@@ -4,8 +4,14 @@ the science of giving computers the ability to act intelligently.¹
 
 ## subsets²
 
-- Narrow AI: Theory and develpment of computing sytems that perform tasks that augment for human intelligence such perception, classification, reasoning, learning, abstracting and/or acting etc
-- General AI: Theory and develpment of fully autonous computing sytems
+* Narrow AI: Theory and develpment of computing sytems that perform tasks that augment for human intelligence such perception, classification, reasoning, learning, abstracting and/or acting etc
+* General AI: Theory and develpment of fully autonous computing sytems
+
+
+## constraint:
+* compute
+* data
+* generalisable knowledge and ability to encode it into algorithm
 
 ## four waves of AI³
   - Reasoning
