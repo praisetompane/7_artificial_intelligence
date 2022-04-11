@@ -48,5 +48,5 @@ plt.show()
 
 '''
 references:
-    Zach Star, The Mathematics of Machine Learning. https://www.youtube.com/watch?v=Rt6beTKDtqY'''
+    Zach Star, The Mathematics of Machine Learning. https://www.youtube.com/watch?v=Rt6beTKDtqY
 '''
