@@ -1,0 +1,19 @@
+Example:
+    motel = [0000000000010000]
+    hotel = [0000000100000000]
+    vocabulary = [0000000100010000] = motel + hotel
+limitiations:
+    vector_size = O(size of vocabulary)
+        Example: 
+            given language with 500000 words
+            vector_size = 500000
+        human language effectively inifinte, due to derivisional morphology.
+    
+    no narutal notion of similarity
+        hotel not equal motel, because they are different(discrete) entities
+        hotel not similar to motel in discrete representation.  
+            solution: 
+                1. similarity matrix
+                    limitation: large size 
+                2. use NLTK Worndet
+                    limitation: incomplete
