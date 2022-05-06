@@ -20,7 +20,7 @@ the science of giving computers the ability to act intelligently.¹
   - Abstraction
 
   Dimensions:
-    - Perceving
+    - §g
     - Learning
     - Abstracting
     - Reasoning
@@ -31,23 +31,23 @@ the science of giving computers the ability to act intelligently.¹
     Ability to encode knowledge into algorithm
 
   - Reasoning: Explicity define what the rules of a domain are.
-    - Perceving: Low
+    - Perceiving: Low
     - Learning: None
     - Abstracting: None
     - Reasoning: High
   - Learning: Learn what the rules of a domain could be from data.
     domain = {language processing, investor transacting, ... }
-    - Perceving: High
+    - Perceiving: High
     - Learning: High
     - Abstracting: Low
     - Reasoning: Low
   - Context: System can add context into what it is doing.
-    - Perceving: High
+    - Perceiving: High
     - Learning: Mid
     - Abstracting: High
     - Reasoning: High
   - Abstraction: Abstract and transfer knowledge from one domain to and apply in another.
-    - Perceving: High
+    - Perceiving: High
     - Learning: High
     - Abstracting: High
     - Reasoning: High
