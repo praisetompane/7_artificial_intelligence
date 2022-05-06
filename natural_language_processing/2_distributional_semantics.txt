@@ -32,7 +32,9 @@ Example:
                     i.e. solve the similarity problem from one-hot vectors?
             O: So if a word is used in a similar way(i.e same context) as another then 
                     then those words are similar?
-
+                The promixity of the word's vector in the vector space determine their similarity.
+                    - The smaller the distance between them, the similar they are.
+                    - The larger the distance between them, the more different they are.
             Example:
                 Expanding the Apple example:
                     the boy ate an Orange for lunch
