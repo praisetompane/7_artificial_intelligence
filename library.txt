@@ -1,3 +1,5 @@
-*  https://scikit-learn.org/stable/index.html 
+* https://scikit-learn.org/stable/index.html 
 
-*  Aurélien Géron Hands On Machine Learning with Scikit Learn Keras and Tensorflow_ Concepts Tools and Techniques to Build Intelligent Systems O’Reilly Media 2019
+* MIT 6.0002 Introduction to Computational Thinking and Data Science
+
+* Hands-On Machine Learning with Scikit-Learn, Keras and TensorFlow by Aurélien Géron (O’Reilly). Copyright 2019 Aurélien Géron, 978-1-492-03264-9.

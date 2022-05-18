@@ -1,10 +1,10 @@
-def 1: a word's meaning is given 
+def 1: a word's meaning is given⁵ 
     by the words that
         frequently appear close by
     i.e. the meaning is given/derived from other words.
         Q: How?
 
-def 2: meanining of a word is represented by the context 
+def 2: meanining of a word is represented by the context⁶
     within which a word occurs.
     def context = the words close by/words around it
                     within a 
@@ -19,7 +19,7 @@ Example:
                         i.e. all its contexts
 ∴ build a representation of word w is from its many contexts c
 
-- actual representation = word vector
+- actual representation = word vector⁷
     large(50+ dimension) vector to represent one word and its meaning
     Example:
         50 dimensions(randomly generated)
@@ -48,3 +48,7 @@ Example:
     
     vectors plotted in n dimension vector space
         n = vector dimension choosen
+
+
+references: 
+    5,6,7 Chris Manning, CS224n: Natural Language Processing with Deep Learning,Stanford / Winter 2022, https://www.youtube.com/redirect?event=video_description&redir_token=QUFFLUhqbFhrcnpCRDJsbVhXMFdFX2FROGRmbnk5YVBfQXxBQ3Jtc0ttUnRIT0pZQ0Uxa1NBaUVxd3ZRLVo0TzN2RTFLcUpWX2FsODBXTHVaaGVveHJUMVRaaUFldG9TcHdwU0c3QWlmeFJ4Ti1UOGZlZkMxZi1FTF82QWp6OF9sVUhEcHJyaG1KX203NElzSk9IUlJvQ1RxUQ&q=https%3A%2F%2Fstanford.io%2F3CORGu1&v=8rXD5-xhemo

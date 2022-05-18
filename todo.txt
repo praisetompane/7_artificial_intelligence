@@ -1,4 +1,85 @@
-*  June-2022 Andrew Ng https://www.youtube.com/watch?v=dkdz1Spfl9w
+Philosphy: https://www.youtube.com/watch?v=hkagmGAu74Y
+         : https://www.youtube.com/watch?v=21EiKfQYZXc
+
+      PHD approach: 
+         1. Read papers 
+         2. Replicate results
+
+https://www.coursera.org/learn/ai-for-everyone/home/week/1 *
+
+6 month Roadmap:https://github.com/codebasics/roadmaps/blob/master/machine-learning-engineer-roadmap-2021/ml_engineer_roadmap_2021.md
+
+   Week 9, 10, 11, 12: 
+   Numpy
+   Pandas
+   SciPy
+   Data Visualization Libraries
+       Matplotlib
+   Numpy playlist: https://www.youtube.com/playlist?list=PLeo1K3hjS3uset9zIVzJWqplaWBiacTEU
+   Pandas playlist (first 9): https://www.youtube.com/playlist?list=PLeo1K3hjS3uuASpe-1LjfG5f14Bnozjwy
+
+      Kaggle exploratory data analysis
+         Notebooks: https://www.kaggle.com/code
+         Datasets: https://www.kaggle.com/datasets
+
+   Week 13, 14: Math, Statistics For Machine Learning
+
+    Math and Statistics for data science
+        Codebasics playlist: https://www.youtube.com/playlist?list=PLeo1K3hjS3uuKaU2nBDwr6zrSOTzNCs0l
+        Statistics book: Practical Statistics for Data Scientists: 50+ Essential Concepts Using R and Python by Peter Bruce, Andrew Bruce
+
+* Hands-On Machine Learning with Scikit-Learn, Keras and TensorFlow by Aurélien Géron (O’Reilly). Copyright 2019 Aurélien Géron, 978-1-492-03264-9.
+
+* Introduction to Computational Thinking and Data Science *
+   https://ocw.mit.edu/courses/6-0002-introduction-to-computational-thinking-and-data-science-fall-2016/
+   
+* https://online.stanford.edu/courses/cs229-machine-learning
+   https://www.youtube.com/watch?v=jGwO_UgTS7I&list=PLoROMvodv4rMiGQp3WXShtMGgzqpfVfbU
+
+* https://pll.harvard.edu/course/data-science-machine-learning?delta=3
+
+* Google: Machine Learning Crash Course
+
+Kaggle:
+   Titanic
+   Image recognition of hand written numbers
+
+* Natural Language Processing: *
+   Learn NLP to predict Corporate culture - Current Project
+      Stanford CS224N: NLP with Deep Learning | Winter 2019 | Lecture 1 – Introduction and Word Vectors **
+      Stanford CS224N: NLP with Deep Learning | Winter 2019 | Lecture 2 – Word Vectors and Word Senses *
+      https://www.deeplearning.ai/program/natural-language-processing-specialization/
+
+* AI for Everyone *
+   https://www.deeplearning.ai/program/ai-for-everyone/
+
+* Get Overview of DataScience:
+   https://www.coursera.org/learn/what-is-datascience#syllabus 
+
+* Get Overview of Data Analytics:
+   https://www.coursera.org/professional-certificates/google-data-analytics?irclickid=08eXdRVADxyIWlszN%3A0wnXCVUkD0PaQCw2qE240&irgwc=1#courses
+
+* Introduction to Machine Learning 
+   https://www.coursera.org/learn/machine-learning/home/week/1 : New Python version out in June 2022
+   https://openlearninglibrary.mit.edu/courses/course-v1:MITx+6.036+1T2019/course/
+
+* Core Mathematics
+   https://towardsdatascience.com/mathematics-for-data-science-e53939ee8306
+
+   Resources:
+      - Linear Algebra
+            https://www.khanacademy.org/math/linear-algebra *
+            https://ocw.mit.edu/courses/res-18-010-a-2020-vision-of-linear-algebra-spring-2020/video_galleries/videos/
+
+      - Statistics
+            https://towardsdatascience.com/introduction-to-statistics-e9d72d818745
+            https://www.khanacademy.org/math/statistics-probability *
+
+      - Calculus
+            https://www.khanacademy.org/math/multivariable-calculus
+
+* Machine Learning Engineering for Production (MLOps) Specialization 
+   https://www.deeplearning.ai/program/machine-learning-engineering-for-production-mlops/
 
 *  http://ciml.info/
 
@@ -6,7 +87,7 @@
    https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-036-introduction-to-machine-learning-fall-2020/
 
 *  MIT 6.034 Artificial Intelligence
-   https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-034-artificial-intelligence-fall-2010/
+      https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-034-artificial-intelligence-fall-2010/
 
 *  Geoffrey Hinton and Yann LeCun, 2018 ACM A.M. Turing Award Lecture "The Deep Learning Revolution"
     https://www.youtube.com/watch?v=VsnQf7exv5I&t=4930s

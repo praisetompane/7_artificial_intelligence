@@ -1,4 +1,4 @@
-Example:
+Example⁴:
     motel = [0000000000010000]
     hotel = [0000000100000000]
     vocabulary = [0000000100010000] = motel + hotel
@@ -17,3 +17,6 @@ limitiations:
                     limitation: large size 
                 2. use NLTK Worndet
                     limitation: incomplete
+
+references: 
+    4 Chris Manning, CS224n: Natural Language Processing with Deep Learning,Stanford / Winter 2022, https://www.youtube.com/redirect?event=video_description&redir_token=QUFFLUhqbFhrcnpCRDJsbVhXMFdFX2FROGRmbnk5YVBfQXxBQ3Jtc0ttUnRIT0pZQ0Uxa1NBaUVxd3ZRLVo0TzN2RTFLcUpWX2FsODBXTHVaaGVveHJUMVRaaUFldG9TcHdwU0c3QWlmeFJ4Ti1UOGZlZkMxZi1FTF82QWp6OF9sVUhEcHJyaG1KX203NElzSk9IUlJvQ1RxUQ&q=https%3A%2F%2Fstanford.io%2F3CORGu1&v=8rXD5-xhemo
