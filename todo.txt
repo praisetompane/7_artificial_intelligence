@@ -6,17 +6,16 @@ Philosphy: https://www.youtube.com/watch?v=hkagmGAu74Y
          2. Replicate results
 
 https://www.coursera.org/learn/ai-for-everyone/home/week/1 *
+   Write Assignments - 2 done 2 to go
 
 6 month Roadmap:https://github.com/codebasics/roadmaps/blob/master/machine-learning-engineer-roadmap-2021/ml_engineer_roadmap_2021.md
 
    Week 9, 10, 11, 12: 
-   Numpy
-   Pandas
+   Numpy playlist: https://www.youtube.com/playlist?list=PLeo1K3hjS3uset9zIVzJWqplaWBiacTEU
+   Pandas playlist (first 9): https://www.youtube.com/playlist?list=PLeo1K3hjS3uuASpe-1LjfG5f14Bnozjwy
    SciPy
    Data Visualization Libraries
        Matplotlib
-   Numpy playlist: https://www.youtube.com/playlist?list=PLeo1K3hjS3uset9zIVzJWqplaWBiacTEU
-   Pandas playlist (first 9): https://www.youtube.com/playlist?list=PLeo1K3hjS3uuASpe-1LjfG5f14Bnozjwy
 
       Kaggle exploratory data analysis
          Notebooks: https://www.kaggle.com/code
@@ -24,11 +23,18 @@ https://www.coursera.org/learn/ai-for-everyone/home/week/1 *
 
    Week 13, 14: Math, Statistics For Machine Learning
 
-    Math and Statistics for data science
+   Math and Statistics for data science
         Codebasics playlist: https://www.youtube.com/playlist?list=PLeo1K3hjS3uuKaU2nBDwr6zrSOTzNCs0l
         Statistics book: Practical Statistics for Data Scientists: 50+ Essential Concepts Using R and Python by Peter Bruce, Andrew Bruce
 
+* https://www.coursera.org/specializations/natural-language-processing
+
+* https://www.deeplearning.ai/
+
 * Hands-On Machine Learning with Scikit-Learn, Keras and TensorFlow by Aurélien Géron (O’Reilly). Copyright 2019 Aurélien Géron, 978-1-492-03264-9.
+
+* https://ml2022.my.canva.site/
+   https://www.udacity.com/course/intro-to-statistics--st101
 
 * Introduction to Computational Thinking and Data Science *
    https://ocw.mit.edu/courses/6-0002-introduction-to-computational-thinking-and-data-science-fall-2016/

@@ -20,7 +20,7 @@ the science of giving computers the ability to act intelligently.¹
   - Abstraction
 
   Dimensions:
-    - §g
+    - Reasoning
     - Learning
     - Abstracting
     - Reasoning
