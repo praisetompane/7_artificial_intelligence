@@ -5,27 +5,8 @@ Philosphy: https://www.youtube.com/watch?v=hkagmGAu74Y
          1. Read papers 
          2. Replicate results
 
-https://www.coursera.org/learn/ai-for-everyone/home/week/1 *
-   Write Assignments - 2 done 2 to go
-
-6 month Roadmap:https://github.com/codebasics/roadmaps/blob/master/machine-learning-engineer-roadmap-2021/ml_engineer_roadmap_2021.md
-
-   Week 9, 10, 11, 12: 
-   Numpy playlist: https://www.youtube.com/playlist?list=PLeo1K3hjS3uset9zIVzJWqplaWBiacTEU
-   Pandas playlist (first 9): https://www.youtube.com/playlist?list=PLeo1K3hjS3uuASpe-1LjfG5f14Bnozjwy
-   SciPy
-   Data Visualization Libraries
-       Matplotlib
-
-      Kaggle exploratory data analysis
-         Notebooks: https://www.kaggle.com/code
-         Datasets: https://www.kaggle.com/datasets
-
-   Week 13, 14: Math, Statistics For Machine Learning
-
-   Math and Statistics for data science
-        Codebasics playlist: https://www.youtube.com/playlist?list=PLeo1K3hjS3uuKaU2nBDwr6zrSOTzNCs0l
-        Statistics book: Practical Statistics for Data Scientists: 50+ Essential Concepts Using R and Python by Peter Bruce, Andrew Bruce
+* https://github.com/codebasics/roadmaps/blob/master/machine-learning-engineer-roadmap-2021/ml_engineer_roadmap_2021.md
+   week 9
 
 * https://www.coursera.org/specializations/natural-language-processing
 
@@ -99,6 +80,11 @@ Kaggle:
     https://www.youtube.com/watch?v=VsnQf7exv5I&t=4930s
 
 *  2006, Geoffrey Hinton et al, http://www.cs.toronto.edu/~hinton/.
+
+========================================COMPLETED========================================
+https://www.coursera.org/learn/ai-for-everyone/home/week/1 **
+
+
 
 
 

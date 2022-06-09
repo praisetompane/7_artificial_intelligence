@@ -52,16 +52,6 @@ the science of giving computers the ability to act intelligently.¹
     - Abstracting: High
     - Reasoning: High
 
-def learning algorithm: 
-  def\^1 a method use to process data
-    to **extract patterns**
-    appropriate for application in new situations
-
-  def\^2: a mthod or algorithm by which an aritificial neural network
-          learns the representation of 
-            information present in learning example
-              by modification of the weights
-
 # references
 
 1,2,3 Jeremy Kepner, and Vijay Gadepally. RES.LL-005 Mathematics of Big Data and Machine Learning. January IAP 2020. Massachusetts Institute of Technology: MIT OpenCourseWare, https://ocw.mit.edu. https://www.youtube.com/watch?v=t4K6lney7Zw

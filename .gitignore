@@ -8,3 +8,6 @@ literature
 open_source
 todo.txt
 chapter_breakdown.txt
+
+venv
+.DS_Store
