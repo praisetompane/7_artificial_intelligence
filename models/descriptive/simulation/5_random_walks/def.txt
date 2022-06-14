@@ -1,0 +1,77 @@
+def 1 a mathematical object
+    that describes a path across a mathematical space
+        defined by a succession of random steps¹ 
+
+def 2 a proces by which
+        randomly moving objects
+            wander away from their intial positions² 
+
+
+use cases³ :
+    model:
+        physical processes(e.g. diffusion)
+        biological processes(e.g. the kinetics of the displace of RNA)
+        social processes(e.g. movement of stock market)
+
+types:
+    - standard/"normal"
+    - biased
+
+    - standard/"normal": all possible random step choices are equally likely to happen.
+    - biased: certain step choices are more desired, therefore more likely to happen.
+                e.g. highly weighted
+              desired step choices have greater effect
+                e.g. Given, we want to end in South
+                     Then, walk more steps in desired direction(1 step if direction north, but 2 if direction south)
+
+Examples Random Walk⁴: 
+    - browniam motion
+    - drunkard's walk:
+        Given:
+            A drunk
+                can walk 1 step in random direction
+                
+        If she were to take 1000 times, 
+            would she go further away from the initial position(origin)
+            OR
+            would she end up wander back to the origin over and over again?
+
+            ANS: We need simulation for this, as she takes random steps. There is no way to analytically calculate/compute 
+                the answer.
+                BECAUSE her steps are random.
+
+
+        How far is she from initial position?
+            Build the simplified version to gain intuition:
+                Assumptions:
+                    movement is in 2D cartesian space
+                    movement is 1 step parallel to x or y axis
+
+                0.25 probability she is back to initial position(i.e. move backward)
+                0.25 probability she is 2 steps from initial position(i.e. took another step in previous' step direction)
+                0.5 probability she is sqrt(2) from initial position: 
+                    Q: Why/How probability of 0.5?
+                    i.e. uses pythagoras
+                    h = sqrt(horizontal² + virtical²)
+                        sqrt(1² + 1²)
+                        sqrt(1 + 1)
+                        sqrt(2)
+
+                    h is the diagonal from intial position to where the point where "up" move from the "left" move
+                        would position her.
+
+                             /|
+                        h   / | length = 1(i.e virtical move)
+                           ----
+                        length = 1(i.e. horizontal move)
+
+                        h² = horizontal² + virtical²
+                        h = sqrt(horizontal² + virtical²)
+
+
+
+references:
+    1 https://en.wikipedia.org/wiki/Random_walk
+    2 Random Walks - MIT, https://www.mit.edu/~kardar/teaching/projects/chemotaxis(AndreaSchmidt)/random.htm
+    3,4 Guttag, John. Introduction to Computation and Programming Using Python: With Application to Understanding Data. 2nd ed. MIT Press, 2016. ISBN: 9780262529624
+    

@@ -1,0 +1,24 @@
+a description of computations 
+    that provide useful information
+        about the possible behaviors(*possible behaviours, because we are interested in stochastic systems that have random behavior)
+            of the system being modelled.
+ENGLISH: If I do this, here is what happens² 
+
+def simulation model: an experimental device that mimics the behavior of a real world system.¹ 
+    use cases:
+        used to predict the future state of a system.
+        in leau of expirements too expensive, dangerous, time consuming etc to perform in real life.
+    NB: DO NOT produce extact results.
+
+ENGLISH: 
+    A description of actions
+    AND the possible behaviors/results in the system
+
+Use case: 
+    - Model mathematically intractable systems
+    - Extract intermediate results/state of process/computation/system
+    - Model increasingly complex and/or cumulative what if scenarios
+
+references: 
+    1 Guttag, John. Introduction to Computation and Programming Using Python: With Application to Understanding Data. 2nd ed. MIT Press, 2016. ISBN: 9780262529624
+    2 Lecture 4: Stochastic Thinking, Eric Grimson, John Guttag, and Ana Bell. 6.0002 Introduction to Computational Thinking and Data Science. Fall 2016. Massachusetts Institute of Technology: MIT OpenCourseWare, https://ocw.mit.edu. License: Creative Commons BY-NC-SA.

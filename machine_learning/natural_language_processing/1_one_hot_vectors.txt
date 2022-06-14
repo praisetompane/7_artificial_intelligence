@@ -9,7 +9,7 @@ limitiations:
             vector_size = 500000
         human language effectively inifinte, due to derivisional morphology.
     
-    no narutal notion of similarity
+    no natural notion of similarity
         hotel not equal motel, because they are different(discrete) entities
         hotel not similar to motel in discrete representation.  
             solution: 

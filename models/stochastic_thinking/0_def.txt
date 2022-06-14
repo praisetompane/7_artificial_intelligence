@@ -1,0 +1,76 @@
+def method to model and handle uncertainty in computation models in which
+    we are modelling and trying to understand the real world(which is unceratin) or a world with uncertainty.
+
+CONTRAST: In classical programming we encode a set of deterministic rules, for a 
+                world(domain) that are creating.
+                rules:{logic, expected data,...}
+                In the event of an invocation of the process that violdates the rules, we fail gracefully.
+
+CONTRAST: def deterministic process: process that given the same input produces the same output.³ 
+
+def stochastic process: process in which the output can depend on a random element.⁴
+    properties:
+        usualy uncertain output
+        ∴ use PROBABILISTIC STATEMENTS to describe the possibe output 
+                            
+        Example specification:
+            def roll_dice():"""return an int between 1 and 6"""
+                Underdetermined specification  
+                    do not neccessarily know the next value BUT does NOT have REQUIRE randomness
+                    Can return:
+                        a different value each roll
+                        return the same value each roll
+                
+            def roll_dice(): """return a randomly chosen int between 1 and 6"""
+                Stochastic specification
+                    REQUIRES a random value to be returned each call
+            
+            Refer to "0_roll_dice.py" for example implementation of both specs
+    Example:
+        Given a coin
+            That can be HEADs or TAILS
+        1 Coin flip = 1 character sequence of result
+            character sequence = x
+            probability of character being Heads = 1/2 = 0.5
+            probability of character being Tails = 1/2 = 0.5
+
+        2 Coin flips = 2 character sequence of result
+            character sequence = xx
+
+            probability of 1ˢᵗ character being Heads = 1/2 = 0.5
+            probability of 1ˢᵗ character being Tails = 1/2 = 0.5
+                probability of 1ˢᵗ character's value = 1/2
+                    1 = count of event
+                    2 = all possible events = Heads or Tails
+ 
+            probability of 2ⁿᵈ character being Heads = 1/2 = 0.5
+            probability of 2ⁿᵈ character being Tails = 1/2 = 0.5
+                probability of 1ˢᵗ character's value = 1/2
+                    1 = count of event
+                    2 = all possible events = Heads or Tails
+
+            probability of any character sequence = 
+                probability of 1ˢᵗ character's value(Heads or Tails) * 
+                probability of 2ⁿᵈ character's value(Heads or Tails) * 
+                probability of 3ʳᵈ character's value(Heads or Tails) * ... 
+                probability of nᵗʰ character's value(Heads or Tails)
+
+            ∴ for 2 coin flips
+                probability of any sequence = 0.5*0.5 = 0.25 
+                    probability rule applied here = multiply probability of independent events
+                        to get probability of both happening
+
+                        Q: What if the events(values) were NOT independent? => Use Conditional Probability
+                            as opposed to Discrete Probability applied above?
+                            
+                Another representation:
+                    1/2² = 0.25
+                    1 = count of event were looking for(i.e. one specific unique sequence(e.g. Tails, Tails))
+                    2² = all possible events
+
+def indepedent event:
+    an event is indepedent if its outcome IS NOT dependent of th results of previous result(s)
+
+references:
+    3,4 Guttag, John. Introduction to Computation and Programming Using Python: With Application to Understanding Data. 2nd ed. MIT Press, 2016. ISBN: 9780262529624
+     

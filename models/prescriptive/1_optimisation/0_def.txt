@@ -1,0 +1,35 @@
+Model to understand scenarios where you have:
+        - objective: 
+            the thing you want to achieve/do/complete or a measurable value, condition etc
+
+            - objective function
+                either to minimize or maximize
+
+        - set of constraints
+            can be empty
+            - eliminates solutions
+
+problem pattern: find the biggest, smallest, lowest, highest, fewest, fastest, least expensive etc
+                    with some constraints(can be none)
+
+    Examples: Going to Cape Town from Jozi either by Bus/Train/Flight    
+        - Given:
+                Flight cost = 2 hours, R1000
+                Train = 168 hours, R250
+                Bus = 72 hours, R450
+        
+        - objective: Get to Cape Town from Jozi quickly
+            - objective function: minimize number of minutes spent in transit
+        
+        - set of constraints:
+            only have R500 to spend
+        
+        ∴   Bus route, 72 hours at R450 cost
+    
+            (Flight, 2 hours) < ((Bus, 72 hours), (Train, 168 hours))
+                (Flight, R1000) > (Constraint, R450)
+
+            (Bus, 72 hours) < (Train, 168 hours)
+                (Bus, R450) < (R500, Contraint)
+References:
+https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-0002-introduction-to-computational-thinking-and-data-science-fall-2016/lecture-videos/lecture-1-introduction-and-optimization-problems/

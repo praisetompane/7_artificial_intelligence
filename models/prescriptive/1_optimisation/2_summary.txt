@@ -1,0 +1,10 @@
+Many problems can be modelled/represented as optimisation problem
+
+Optimisation problems are inherently exponential in complexity
+
+Greedy algorithm can solve the problem FASTER, but do not always provde the optimal solution
+
+Brute force algorithm + memoisation solve this exponentially hard problem:
+    - provides correct(optimal) solution
+    - often fast under correct circumstances.
+        i.e. the problem space has "memoisable"(see above) states(i.e. nodes, subproblems etc).

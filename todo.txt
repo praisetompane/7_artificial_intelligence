@@ -1,25 +1,50 @@
-Philosphy: https://www.youtube.com/watch?v=hkagmGAu74Y
+Philosophy: https://www.youtube.com/watch?v=hkagmGAu74Y
          : https://www.youtube.com/watch?v=21EiKfQYZXc
 
       PHD approach: 
          1. Read papers 
          2. Replicate results
 
-* https://github.com/codebasics/roadmaps/blob/master/machine-learning-engineer-roadmap-2021/ml_engineer_roadmap_2021.md
-   week 9
+6 month Roadmap:https://github.com/codebasics/roadmaps/blob/master/machine-learning-engineer-roadmap-2021/ml_engineer_roadmap_2021.md
 
-* https://www.coursera.org/specializations/natural-language-processing
+   Week 9, 10, 11, 12: 
+   Numpy playlist: https://www.youtube.com/playlist?list=PLeo1K3hjS3uset9zIVzJWqplaWBiacTEU
+      https://www.youtube.com/watch?v=Auf4XFOJrQg
+
+   Pandas playlist (first 9): 
+      https://www.youtube.com/playlist?list=PLeo1K3hjS3uuASpe-1LjfG5f14Bnozjwy
+      https://www.youtube.com/watch?v=nNeiXSanUBo
+
+   SciPy
+   Data Visualization Libraries
+       Matplotlib
+
+      Kaggle exploratory data analysis
+         Notebooks: https://www.kaggle.com/code
+         Datasets: https://www.kaggle.com/datasets
+
+   Week 13, 14: Math, Statistics For Machine Learning
+      - https://www.youtube.com/playlist?list=PLeo1K3hjS3uuKaU2nBDwr6zrSOTzNCs0l
+      - Statistics book: Practical Statistics for Data Scientists: 50+ Essential Concepts Using R and Python by Peter Bruce, Andrew Bruce
+
+* https://developers.google.com/machine-learning/crash-course
+
+* https://www.coursera.org/learn/what-is-datascience#syllabus 
+
+* https://www.coursera.org/learn/machine-learning-duke#syllabus
+
+* https://www.coursera.org/learn/python-statistics-financial-analysis
+
+* https://archive.org/details/imm3274/page/n1/mode/2up
 
 * https://www.deeplearning.ai/
 
 * Hands-On Machine Learning with Scikit-Learn, Keras and TensorFlow by Aurélien Géron (O’Reilly). Copyright 2019 Aurélien Géron, 978-1-492-03264-9.
 
 * https://ml2022.my.canva.site/
-   https://www.udacity.com/course/intro-to-statistics--st101
 
-* Introduction to Computational Thinking and Data Science *
-   https://ocw.mit.edu/courses/6-0002-introduction-to-computational-thinking-and-data-science-fall-2016/
-   
+* https://www.udacity.com/course/intro-to-statistics--st101
+
 * https://online.stanford.edu/courses/cs229-machine-learning
    https://www.youtube.com/watch?v=jGwO_UgTS7I&list=PLoROMvodv4rMiGQp3WXShtMGgzqpfVfbU
 
@@ -50,25 +75,8 @@ Kaggle:
    https://www.coursera.org/learn/machine-learning/home/week/1 : New Python version out in June 2022
    https://openlearninglibrary.mit.edu/courses/course-v1:MITx+6.036+1T2019/course/
 
-* Core Mathematics
-   https://towardsdatascience.com/mathematics-for-data-science-e53939ee8306
-
-   Resources:
-      - Linear Algebra
-            https://www.khanacademy.org/math/linear-algebra *
-            https://ocw.mit.edu/courses/res-18-010-a-2020-vision-of-linear-algebra-spring-2020/video_galleries/videos/
-
-      - Statistics
-            https://towardsdatascience.com/introduction-to-statistics-e9d72d818745
-            https://www.khanacademy.org/math/statistics-probability *
-
-      - Calculus
-            https://www.khanacademy.org/math/multivariable-calculus
-
 * Machine Learning Engineering for Production (MLOps) Specialization 
    https://www.deeplearning.ai/program/machine-learning-engineering-for-production-mlops/
-
-*  http://ciml.info/
 
 *  MIT 6.036 Introduction to Machine Learning
    https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-036-introduction-to-machine-learning-fall-2020/
@@ -80,11 +88,6 @@ Kaggle:
     https://www.youtube.com/watch?v=VsnQf7exv5I&t=4930s
 
 *  2006, Geoffrey Hinton et al, http://www.cs.toronto.edu/~hinton/.
-
-========================================COMPLETED========================================
-https://www.coursera.org/learn/ai-for-everyone/home/week/1 **
-
-
 
 
 

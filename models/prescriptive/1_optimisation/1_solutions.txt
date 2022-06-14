@@ -1,0 +1,81 @@
+- Brute force: 
+    - enumerate all possible combinations of items(subsets)
+        i.e. the powerset 
+                this includes the empty set
+        - remove all subsets whose total cost exceeds the allowed cost(S(i.e the CONSTRAINT(s))
+        - from the remaining subsets, choose anyone whose value is the largest/smallest(depending on opitimization goal(minimize/maximize))
+            - can have draws, return anyone.
+
+    - Complexity = Exponential
+        S = possibel states for an item
+        N = Number of items
+        Complexity: O(Sᴺ)
+
+    - Are there other solutions with lower asymptotic complexity? 
+        No, we need to generate all possible combinations to find the best combination.
+
+    NB: Many optmization problems are inherently exponential in the number of combinations of items.
+        There exists NO algorithm with less than exponential asymptotic complexity.
+
+- Practical alternatives based on the brute force(NOT PERFECT solutions => one of strategies to deal with computationally hard problems):
+    - greedy algorithm: 
+        while knapsack is not full
+            put "best" available item into the knapsack
+        what does "best" mean?
+            defined specific for problem you are solving
+                cheapest, most expensive, toughest, shortest, longest etc
+
+        - Examples: Restuarant Meal
+            Menu
+                Food                               |wine | beer | pizza |burger |fries |coke |apple |donut |
+                Value(How much you value this food)|89   |90    |30     |50     |50    |79   |90    |10    |
+                Calories                           |123  |154   |258    |354    |365   |150  |95    |195   |
+
+            Given:
+                a menu of food
+                your value for each food type
+
+            Objective: choose which food you want to eat
+                objective function: foods with the highest total value
+            Contraints:
+                maximum 750 calories
+            
+            See: restuarant.py and restuarant_test.py for implementation details
+
+        - Pros:
+            - Easy to implement
+            - Computationally efficient = O(NlogN)
+
+        - Cons/Limititations:
+            - gives an answer which may/may not be the maximum/minimum value we can get.
+                And it does not provide how close to the optimal solution it is (THERE SOME THAT DO, BUT ARE SOPHISTICATED)
+            NB: makes a sequence of local optimisations,
+                which does NOT necessarily add up to a globally optimal answer.
+                i.e. it chooses the best solution at the specific point IT IS AT in the dataset 
+                        AND NOT the best solution for the whole dataset.
+        
+    - Brute Force 
+        using Search Tree
+            Example Tree:
+                                                       root
+        consequenece of taking current element {take} /   \{don't take} consequenece of not taking the current element
+            NB: convention: left = take, right = don't take
+
+        Complexity = 
+            Time = number of nodes we generate
+                number of levels in tree = number of items
+                        each level represents a choice to take or not take an item.
+        
+                number of nodes per level = 2ⁱ, i >= 0, i = level index
+
+                number of nodes in tree =   i=n
+                                            ∑ 2ⁱ
+                                            i=0
+                    ∴ 2ⁿ⁺¹ 
+                    ∴ O(2ⁿ)                                            
+        Memoisation
+            optimal substrucuture
+            overlapping subproblems
+
+            do we have the same items left consider and available weight in knapsack at more than 1 node? 
+                if yes, then that is a "memoisable" problem
